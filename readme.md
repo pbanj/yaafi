@@ -4,7 +4,8 @@ will always work as long as google doesnt change their url structure.
 
 
 How to use:  
-just run the bat as admin and follow the on screen instructions.
+Download the zip from the repository and extract the folder somewhere.  
+Then just run the bat as admin and follow the on screen instructions.
 
 
 
