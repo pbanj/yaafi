@@ -10,8 +10,4 @@ Then just run the bat as admin and follow the on screen instructions.
 
 
 
-Credit:
-[dload](https://superuser.com/questions/529932/how-to-download-large-files-on-problematic-wifi-connections/833445#833445) made by [seizu (Erich Markus Pribitzer)](https://superuser.com/users/384998/seizu). without this, this wouldnt be possible.
-
-
-As for licensing, I dont care if you credit me or not as the bat file is extremely simple, but make sure you credit the maker of dload.
+As for licensing, I dont care if you credit me or not as the bat file is extremely simple
