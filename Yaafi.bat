@@ -42,14 +42,12 @@ del C:\Windows\adb.exe C:\Windows\AdbWinApi.dll C:\Windows\AdbWinUsbApi.dll C:\W
 cls
 echo Working please wait.
 mkdir Temp
-cd Temp
-curl https://dl.google.com/android/repository/platform-tools-latest-windows.zip
-tar -xf Temp\platform-tools-latest-windows.zip
+curl -o Temp\ptw.zip -L https://dl.google.com/android/repository/platform-tools-latest-windows.zip
+tar -xf Temp\ptw.zip -C Temp
 robocopy Temp\platform-tools C:\Windows adb.exe AdbWinApi.dll AdbWinUsbApi.dll fastboot.exe /IS /NJH /NJS
 cls
 echo Cleaning temp files.
 rmdir /S /Q Temp\
-cls
 echo Done
 pause
 exit 
